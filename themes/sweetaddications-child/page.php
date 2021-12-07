@@ -21,4 +21,23 @@ while ( have_posts() ) :
 	}
 endwhile; // End of the loop.
 
+//New query
+child_qu = array(
+	'post_type' =>'post',
+	'post_status' => 'publish',
+	'post_per_page' => 3,
+);
+child_query = WP_Query(child_qu);
+
+if($child_query ->have_posts()) {
+	while($child_query ->have_posts) {
+		$child_query ->the_posts();
+		?>
+		<p><?php the_title(); ?></p>
+	}
+	wp_reset_postdata();
+}
+
 get_footer();
+
+?>
