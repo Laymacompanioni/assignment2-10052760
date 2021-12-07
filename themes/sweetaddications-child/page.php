@@ -10,7 +10,6 @@
  */
 
 get_header();
-<h1> This is my Child Theme page template</h1>
 
 /* Start the Loop */
 while ( have_posts() ) :
