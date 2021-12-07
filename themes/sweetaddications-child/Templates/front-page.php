@@ -10,7 +10,7 @@
  */
 
 get_header();
-<h1> This is my Child Theme front page</h1>
+<h1> This is front page</h1>
 
 /* Start the Loop */
 while ( have_posts() ) :
