@@ -20,9 +20,8 @@ while ( have_posts() ) :
 		comments_template();
 	}
 endwhile; // End of the loop.
-
 //New query
-child_qu = array(
+$child_qu = array(
 	'post_type' =>'post',
 	'post_status' => 'publish',
 	'post_per_page' => 3,
