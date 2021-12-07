@@ -34,8 +34,17 @@ endwhile; // End of the loop.
 // 		$child_query ->the_posts();
 // 		?>
 // 		<p><?phpthe_title(); ?></p>
+<<<<<<< HEAD
 // 	},
 // 	wp_reset_postdata();
 // };
 
 get_footer();
+=======
+// 	}
+// 	wp_reset_postdata();
+// }
+
+get_footer();
+?>
+>>>>>>> main
