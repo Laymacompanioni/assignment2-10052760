@@ -20,6 +20,7 @@ while ( have_posts() ) :
 		comments_template();
 	}
 endwhile; // End of the loop.
+
 //New query
 // $child_qu = array(
 // 	'post_type' =>'post',
@@ -33,9 +34,8 @@ endwhile; // End of the loop.
 // 		$child_query ->the_posts();
 // 		?>
 // 		<p><?phpthe_title(); ?></p>
-// 	}
+// 	},
 // 	wp_reset_postdata();
-// }
+// };
 
 get_footer();
-?>
